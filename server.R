@@ -73,7 +73,7 @@ shinyServer(
           updateCheckboxInput(session=session, checkBoxes[i], value=FALSE)
         }
         updateCheckboxInput(session=session, inputId="checkBoxMean", value=FALSE)
-        updateCheckboxInput(session=session, inputId="checkBoxHydrogen", value=TRUE)
+        updateCheckboxInput(session=session, inputId="checkBoxHydrogen", value=FALSE)
         updateCheckboxInput(session=session, inputId="logAxes", value=TRUE)
       }
     })

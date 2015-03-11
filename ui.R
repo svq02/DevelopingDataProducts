@@ -13,12 +13,14 @@
 shinyUI(pageWithSidebar(
   headerPanel('Proton Stopping Power'),
   sidebarPanel(
-    checkboxInput("checkBoxHydrogen", label = "Hydrogen", value = TRUE),
+    ('Select Target Materials'), hr(),
+    checkboxInput("checkBoxHydrogen", label = "Hydrogen", value = FALSE),
     checkboxInput("checkBoxAdipose", label = "Adipose Tissue", value = FALSE),
     checkboxInput("checkBoxBone", label = "Compact Bone", value = FALSE),
     checkboxInput("checkBoxLead", label = "Lead", value = FALSE),
     checkboxInput("checkBoxMuscle", label = "Striated Muscle", value = FALSE),
     checkboxInput("checkBoxWater", label = "Liquid Water", value = FALSE),
+    hr(), hr(),
     checkboxInput("checkBoxMean", label = "Mean Stopping Power", value = FALSE),
     br(), hr(),
     checkboxInput("logAxes", label = "Show log axes", value = TRUE),
