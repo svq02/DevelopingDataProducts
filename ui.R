@@ -55,7 +55,8 @@ new science.  To use this app, select one or more target materials from the
 check boxes on the side panel. This will plot the proton stopping power over a
 range of energies for that material.  You can look at the stopping powers on a
 log-log scale by checking the appropriate check box on the side panel. 
-Clicking the "Reset Plot" button will reset the plot to its original state. In order to see the Bragg peak in more detail, unselect the "Log Axes" checkbox.'),
+Clicking the "Reset Plot" button will reset the plot to its original state. 
+In order to see the Bragg peak in more detail, unselect the "Log Axes" checkbox.'),
 
 p('Selecting the "Mean Stopping Power" check box will compute the average 
 stopping power of all the materials that are currently selected in real-time,
