@@ -56,7 +56,9 @@ check boxes on the side panel. This will plot the proton stopping power over a
 range of energies for that material.  You can look at the stopping powers on a
 log-log scale by checking the appropriate check box on the side panel. 
 Clicking the "Reset Plot" button will reset the plot to its original state. 
-In order to see the Bragg peak in more detail, unselect the "Log Axes" checkbox.'),
+In order to see the Bragg peak in more detail, unselect the "Show Log Axes" checkbox.'),
+
+p(''),
 
 p('Selecting the "Mean Stopping Power" check box will compute the average 
 stopping power of all the materials that are currently selected in real-time,
@@ -71,6 +73,7 @@ a(href="http://www.nist.gov/pml/data/star/index.cfm", target="_blank", "NIST web
 ('that tabulates stopping powers for protons, electrons, and helium atoms (alpha particles).
 You can find additional information on the physics of stopping powers, applications in
 materials and accelerator science, as well as information about the models and experiments
-that go into building the data tables at that website.')
+that go into building the data tables at that website.'),
+p('')
   )
 ))
