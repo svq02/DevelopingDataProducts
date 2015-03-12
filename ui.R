@@ -48,17 +48,19 @@ treat tumors in sensitive areas such as eyes where traditional radiation
 therapies can not be used.'),
 
 h1('WebApp Documentation'),
-strong("Don\'t worry about the physics of stopping power!"),
+strong("Don\'t worry about the science of stopping power!"),
 ('The purpose of this web app
 is to demonstrate how to create a reactive shiny web app using R, not to produce
 new science.  To use this app, select one or more target materials from the
 check boxes on the side panel. This will plot the proton stopping power over a
 range of energies for that material.  You can look at the stopping powers on a
-log-log scale by checking the appropriate check box on the side panel. Further,
-checking the "Show Mean" check box will compute the average stopping power of
-all the materials that are selected at the time. Clicking the "Reset Plots"
-button will reset the plot to its original state. In order to see the Bragg peak
-in more detail, unselect the "Log Axes" checkbox.'),
+log-log scale by checking the appropriate check box on the side panel. 
+Clicking the "Reset Plot" button will reset the plot to its original state. In order to see the Bragg peak in more detail, unselect the "Log Axes" checkbox.'),
+
+p('Selecting the "Mean Stopping Power" check box will compute the average 
+stopping power of all the materials that are currently selected in real-time,
+and display the results of the server calculation in the plot window. This is a
+display of reactive output as a result of server calculations.'),
 
     plotOutput('plot'),
 
